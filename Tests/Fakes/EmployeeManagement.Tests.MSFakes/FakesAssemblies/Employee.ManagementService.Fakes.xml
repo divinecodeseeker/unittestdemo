@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Employee.ManagementService.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager">
+            <summary>Shim type of EmployeeManagement.ManagementService.EmployeeManager</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.#ctor(EmployeeManagement.ManagementService.EmployeeManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeManager.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.Constructor">
+            <summary>Sets the shim of EmployeeManager.EmployeeManager()</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.ConstructorIDataAccessor">
+            <summary>Sets the shim of EmployeeManager.EmployeeManager(IDataAccessor dataAccessor)</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.RemoveEmployeeInt32">
+            <summary>Sets the shim of EmployeeManager.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.UpdateEmployeeInt32Employee">
+            <summary>Sets the shim of EmployeeManager.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="T:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.AllInstances.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeManager.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.AllInstances.RemoveEmployeeInt32">
+            <summary>Sets the shim of EmployeeManager.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.ShimEmployeeManager.AllInstances.UpdateEmployeeInt32Employee">
+            <summary>Sets the shim of EmployeeManager.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="T:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager">
+            <summary>Stub type of EmployeeManagement.ManagementService.EmployeeManager</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.#ctor(EmployeeManagement.DataAccess.IDataAccessor)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeManager</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeManagement.ManagementService.Fakes.StubEmployeeManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

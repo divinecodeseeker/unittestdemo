@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Employee.DataAccess.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor">
+            <summary>Shim type of EmployeeManagement.DataAccess.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.#ctor(EmployeeManagement.DataAccess.EmployeeDataAccessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.Bind(EmployeeManagement.DataAccess.IDataAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.Constructor">
+            <summary>Sets the shim of EmployeeDataAccessor.EmployeeDataAccessor()</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.ConstructorIRepository">
+            <summary>Sets the shim of EmployeeDataAccessor.EmployeeDataAccessor(IRepository repo)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.RemoveEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.UpdateEmployeeInt32Employee">
+            <summary>Sets the shim of EmployeeDataAccessor.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances.RemoveEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeDataAccessor.AllInstances.UpdateEmployeeInt32Employee">
+            <summary>Sets the shim of EmployeeDataAccessor.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository">
+            <summary>Shim type of EmployeeManagement.DataAccess.EmployeeRepository</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.#ctor(EmployeeManagement.DataAccess.EmployeeRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.Bind(EmployeeManagement.DataAccess.IRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.AllEmployeesGet">
+            <summary>Sets the shim of EmployeeRepository.get_AllEmployees()</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.AllEmployeesSetIListOfEmployee">
+            <summary>Sets the shim of EmployeeRepository.set_AllEmployees(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.Constructor">
+            <summary>Sets the shim of EmployeeRepository.EmployeeRepository()</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.InstanceGet">
+            <summary>Sets the shim of EmployeeRepository.get_Instance()</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.StaticConstructor">
+            <summary>Sets the shim of EmployeeRepository.EmployeeRepository()</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.AllInstances.AllEmployeesGet">
+            <summary>Sets the shim of EmployeeRepository.get_AllEmployees()</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.ShimEmployeeRepository.AllInstances.AllEmployeesSetIListOfEmployee">
+            <summary>Sets the shim of EmployeeRepository.set_AllEmployees(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor">
+            <summary>Stub type of EmployeeManagement.DataAccess.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.#ctor(EmployeeManagement.DataAccess.IRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDataAccessor</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.StubEmployeeDataAccessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor">
+            <summary>Stub type of EmployeeManagement.DataAccess.IDataAccessor</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.#ctor">
+            <summary>Initializes a new instance of type StubIDataAccessor</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the stub of IDataAccessor.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.eda::EmployeeManagement#DataAccess#IDataAccessor#AddEmployee(EmployeeManagement.Data.Employee)">
+            <summary>Sets the stub of IDataAccessor.AddEmployee(Employee employee)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.eda::EmployeeManagement#DataAccess#IDataAccessor#GetEmployee(System.Int32)">
+            <summary>Sets the stub of IDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.eda::EmployeeManagement#DataAccess#IDataAccessor#GetEmployees(System.Func{EmployeeManagement.Data.Employee,System.Boolean})">
+            <summary>Sets the stub of IDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.eda::EmployeeManagement#DataAccess#IDataAccessor#RemoveEmployee(System.Int32)">
+            <summary>Sets the stub of IDataAccessor.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.eda::EmployeeManagement#DataAccess#IDataAccessor#UpdateEmployee(System.Int32,EmployeeManagement.Data.Employee)">
+            <summary>Sets the stub of IDataAccessor.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.GetEmployeeInt32">
+            <summary>Sets the stub of IDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the stub of IDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.RemoveEmployeeInt32">
+            <summary>Sets the stub of IDataAccessor.RemoveEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIDataAccessor.UpdateEmployeeInt32Employee">
+            <summary>Sets the stub of IDataAccessor.UpdateEmployee(Int32 id, Employee newData)</summary>
+        </member>
+        <member name="T:EmployeeManagement.DataAccess.Fakes.StubIRepository">
+            <summary>Stub type of EmployeeManagement.DataAccess.IRepository</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIRepository.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIRepository.AllEmployeesGet">
+            <summary>Sets the stub of IRepository.get_AllEmployees()</summary>
+        </member>
+        <member name="F:EmployeeManagement.DataAccess.Fakes.StubIRepository.AllEmployeesSetIListOfEmployee">
+            <summary>Sets the stub of IRepository.set_AllEmployees(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="M:EmployeeManagement.DataAccess.Fakes.StubIRepository.AttachBackingFieldToAllEmployees">
+            <summary>Attaches delegates to emulate StubIRepository.AllEmployees as a property with a backing field.</summary>
+        </member>
+        <member name="P:EmployeeManagement.DataAccess.Fakes.StubIRepository.eda::EmployeeManagement#DataAccess#IRepository#AllEmployees">
+            <summary>Sets the stub of IRepository.get_AllEmployees()</summary>
+        </member>
+    </members>
+</doc>
