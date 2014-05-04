@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeData.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AppliedUnitTesting.Data.Fakes.ShimEmployee">
+            <summary>Shim type of AppliedUnitTesting.Data.Employee</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployee.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployee.#ctor(AppliedUnitTesting.Data.Employee)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployee.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployee.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployee.Bind(System.IEquatable{AppliedUnitTesting.Data.Employee})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.Constructor">
+            <summary>Sets the shim of Employee.Employee()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.EqualsEmployee">
+            <summary>Sets the shim of Employee.Equals(Employee other)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.FirstNameGet">
+            <summary>Sets the shim of Employee.get_FirstName()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.FirstNameSetString">
+            <summary>Sets the shim of Employee.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.IdGet">
+            <summary>Sets the shim of Employee.get_Id()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.IdSetInt32">
+            <summary>Sets the shim of Employee.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.LastNameGet">
+            <summary>Sets the shim of Employee.get_LastName()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.LastNameSetString">
+            <summary>Sets the shim of Employee.set_LastName(String value)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.EqualsEmployee">
+            <summary>Sets the shim of Employee.Equals(Employee other)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.FirstNameGet">
+            <summary>Sets the shim of Employee.get_FirstName()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.FirstNameSetString">
+            <summary>Sets the shim of Employee.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.IdGet">
+            <summary>Sets the shim of Employee.get_Id()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Employee.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.LastNameGet">
+            <summary>Sets the shim of Employee.get_LastName()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployee.AllInstances.LastNameSetString">
+            <summary>Sets the shim of Employee.set_LastName(String value)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository">
+            <summary>Shim type of AppliedUnitTesting.Data.EmployeeRepository</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.#ctor(AppliedUnitTesting.Data.EmployeeRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.Bind(AppliedUnitTesting.Data.IEmployeeRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.Constructor">
+            <summary>Sets the shim of EmployeeRepository.EmployeeRepository()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.DataGet">
+            <summary>Sets the shim of EmployeeRepository.get_Data()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.DataSetIListOfEmployee">
+            <summary>Sets the shim of EmployeeRepository.set_Data(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.InstanceGet">
+            <summary>Sets the shim of EmployeeRepository.get_Instance()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.StaticConstructor">
+            <summary>Sets the shim of EmployeeRepository.EmployeeRepository()</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.AllInstances.DataGet">
+            <summary>Sets the shim of EmployeeRepository.get_Data()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.ShimEmployeeRepository.AllInstances.DataSetIListOfEmployee">
+            <summary>Sets the shim of EmployeeRepository.set_Data(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.Data.Fakes.StubEmployee">
+            <summary>Stub type of AppliedUnitTesting.Data.Employee</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.StubEmployee.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.StubEmployee.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployee</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.StubEmployee.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.StubEmployee.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.StubEmployee.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository">
+            <summary>Stub type of AppliedUnitTesting.Data.IEmployeeRepository</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository.#ctor">
+            <summary>Initializes a new instance of type StubIEmployeeRepository</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository.AttachBackingFieldToData">
+            <summary>Attaches delegates to emulate StubIEmployeeRepository.Data as a property with a backing field.</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository.DataGet">
+            <summary>Sets the stub of IEmployeeRepository.get_Data()</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository.DataSetIListOfEmployee">
+            <summary>Sets the stub of IEmployeeRepository.set_Data(IList`1&lt;Employee&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.Data.Fakes.StubIEmployeeRepository.ed::AppliedUnitTesting#Data#IEmployeeRepository#Data">
+            <summary>Sets the stub of IEmployeeRepository.get_Data()</summary>
+        </member>
+    </members>
+</doc>

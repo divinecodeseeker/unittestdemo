@@ -1,0 +1,3 @@
+C:\Projects\AppliedUnitTesting\EmployeeDataAccess.Tests\Fakes\EmployeeDataAccess.fakes : warning : Cannot generate shim for AppliedUnitTesting.DataAccess.Legacy.EmployeeDataAccessor+<>c__DisplayClass1: type is not supported because of internal limitations.
+C:\Projects\AppliedUnitTesting\EmployeeDataAccess.Tests\Fakes\EmployeeDataAccess.fakes : warning : Cannot generate shim for AppliedUnitTesting.DataAccess.Proposed.IEmployeeDataAccessor: type is an interface.
+C:\Projects\AppliedUnitTesting\EmployeeDataAccess.Tests\Fakes\EmployeeDataAccess.fakes : warning : Cannot generate shim for AppliedUnitTesting.DataAccess.Proposed.EmployeeDataAccessor+<>c__DisplayClass1: type is not supported because of internal limitations.

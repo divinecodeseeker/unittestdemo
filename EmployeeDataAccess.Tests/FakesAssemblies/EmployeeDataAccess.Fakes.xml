@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeDataAccess.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor">
+            <summary>Shim type of AppliedUnitTesting.DataAccess.Legacy.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.#ctor(AppliedUnitTesting.DataAccess.Legacy.EmployeeDataAccessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.Constructor">
+            <summary>Sets the shim of EmployeeDataAccessor.EmployeeDataAccessor()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.EmployeeAddedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.EmployeeAddedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.EmployeeRemovedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.EmployeeRemovedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.RemoveEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeAddedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeAddedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeRemovedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeRemovedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.ShimEmployeeDataAccessor.AllInstances.RemoveEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor">
+            <summary>Stub type of AppliedUnitTesting.DataAccess.Legacy.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDataAccessor</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Legacy.Fakes.StubEmployeeDataAccessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor">
+            <summary>Shim type of AppliedUnitTesting.DataAccess.Proposed.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.#ctor(AppliedUnitTesting.DataAccess.Proposed.EmployeeDataAccessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.Bind(AppliedUnitTesting.DataAccess.Proposed.IEmployeeDataAccessor)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.ConstructorIEmployeeRepository">
+            <summary>Sets the shim of EmployeeDataAccessor.EmployeeDataAccessor(IEmployeeRepository employeeRepository)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.EmployeeAddedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.EmployeeAddedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.EmployeeRemovedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.EmployeeRemovedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.RemoveEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.AddEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeAddedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeAddedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeAdded(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeRemovedAddActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.add_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.EmployeeRemovedRemoveActionOfInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.remove_EmployeeRemoved(Action`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the shim of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.ShimEmployeeDataAccessor.AllInstances.RemoveEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor">
+            <summary>Stub type of AppliedUnitTesting.DataAccess.Proposed.EmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.#ctor(AppliedUnitTesting.Data.IEmployeeRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.AddEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.GetEmployee(System.Int32)">
+            <summary>Sets the stub of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.GetEmployeeInt32">
+            <summary>Sets the stub of EmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.GetEmployees(System.Func{AppliedUnitTesting.Data.Employee,System.Boolean})">
+            <summary>Sets the stub of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the stub of EmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.RemoveEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.RemoveEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubEmployeeDataAccessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor">
+            <summary>Stub type of AppliedUnitTesting.DataAccess.Proposed.IEmployeeDataAccessor</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.#ctor">
+            <summary>Initializes a new instance of type StubIEmployeeDataAccessor</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.AddEmployeeEmployee">
+            <summary>Sets the stub of IEmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.eda::AppliedUnitTesting#DataAccess#Proposed#IEmployeeDataAccessor#AddEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of IEmployeeDataAccessor.AddEmployee(Employee item)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.eda::AppliedUnitTesting#DataAccess#Proposed#IEmployeeDataAccessor#GetEmployee(System.Int32)">
+            <summary>Sets the stub of IEmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.eda::AppliedUnitTesting#DataAccess#Proposed#IEmployeeDataAccessor#GetEmployees(System.Func{AppliedUnitTesting.Data.Employee,System.Boolean})">
+            <summary>Sets the stub of IEmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.eda::AppliedUnitTesting#DataAccess#Proposed#IEmployeeDataAccessor#RemoveEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of IEmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.GetEmployeeInt32">
+            <summary>Sets the stub of IEmployeeDataAccessor.GetEmployee(Int32 id)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.GetEmployeesFuncOfEmployeeBoolean">
+            <summary>Sets the stub of IEmployeeDataAccessor.GetEmployees(Func`2&lt;Employee,Boolean&gt; condition)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataAccess.Proposed.Fakes.StubIEmployeeDataAccessor.RemoveEmployeeEmployee">
+            <summary>Sets the stub of IEmployeeDataAccessor.RemoveEmployee(Employee employee)</summary>
+        </member>
+    </members>
+</doc>

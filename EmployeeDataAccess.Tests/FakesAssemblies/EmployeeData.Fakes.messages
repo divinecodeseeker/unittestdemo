@@ -1,0 +1,2 @@
+C:\Projects\AppliedUnitTesting\EmployeeDataAccess.Tests\Fakes\EmployeeData.fakes : warning : Cannot generate stub for AppliedUnitTesting.Data.EmployeeRepository: type has no family visible contructors.
+C:\Projects\AppliedUnitTesting\EmployeeDataAccess.Tests\Fakes\EmployeeData.fakes : warning : Cannot generate shim for AppliedUnitTesting.Data.IEmployeeRepository: type is an interface.

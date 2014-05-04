@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeDataService.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager">
+            <summary>Shim type of AppliedUnitTesting.DataService.Legacy.EmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.#ctor(AppliedUnitTesting.DataService.Legacy.EmployeeDataManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AddEmployeeToListInt32">
+            <summary>Sets the shim of EmployeeDataManager.AddEmployeeToList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AvailableIdsGet">
+            <summary>Sets the shim of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.Constructor">
+            <summary>Sets the shim of EmployeeDataManager.EmployeeDataManager()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.CreateNewEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.GetAllEmployees">
+            <summary>Sets the shim of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.IsEmployeeInSystemInt32">
+            <summary>Sets the shim of EmployeeDataManager.IsEmployeeInSystem(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.RemoveAnEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.RemoveEmployeeFromListInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveEmployeeFromList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.UpdateEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager._GetAllEmployeesb__2Employee">
+            <summary>Sets the shim of EmployeeDataManager.&lt;GetAllEmployees&gt;b__2(Employee x)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager._get_AvailableIdsb__0Employee">
+            <summary>Sets the shim of EmployeeDataManager.&lt;get_AvailableIds&gt;b__0(Employee x)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.AddEmployeeToListInt32">
+            <summary>Sets the shim of EmployeeDataManager.AddEmployeeToList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.AvailableIdsGet">
+            <summary>Sets the shim of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.CreateNewEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.GetAllEmployees">
+            <summary>Sets the shim of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.IsEmployeeInSystemInt32">
+            <summary>Sets the shim of EmployeeDataManager.IsEmployeeInSystem(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.RemoveAnEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.RemoveEmployeeFromListInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveEmployeeFromList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.ShimEmployeeDataManager.AllInstances.UpdateEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager">
+            <summary>Stub type of AppliedUnitTesting.DataService.Legacy.EmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.AvailableIdsGet">
+            <summary>Sets the stub of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.CreateNewEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.CreateNewEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.GetAllEmployees">
+            <summary>Sets the stub of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.GetAllEmployees01">
+            <summary>Sets the stub of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.GetEmployee(System.Int32)">
+            <summary>Sets the stub of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.GetEmployeeInt32">
+            <summary>Sets the stub of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.RemoveAnEmployee(System.Int32)">
+            <summary>Sets the stub of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.RemoveAnEmployeeInt32">
+            <summary>Sets the stub of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.UpdateEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.UpdateEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.AvailableIds">
+            <summary>Sets the stub of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Legacy.Fakes.StubEmployeeDataManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager">
+            <summary>Shim type of AppliedUnitTesting.DataService.Proposed.EmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.#ctor(AppliedUnitTesting.DataService.Proposed.EmployeeDataManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AddEmployeeToListInt32">
+            <summary>Sets the shim of EmployeeDataManager.AddEmployeeToList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AvailableIdsGet">
+            <summary>Sets the shim of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.ConstructorIEmployeeDataAccessor">
+            <summary>Sets the shim of EmployeeDataManager.EmployeeDataManager(IEmployeeDataAccessor employeeDataAccessor)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.CreateNewEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.GetAllEmployees">
+            <summary>Sets the shim of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.IsEmployeeInSystemInt32">
+            <summary>Sets the shim of EmployeeDataManager.IsEmployeeInSystem(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.RemoveAnEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.RemoveEmployeeFromListInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveEmployeeFromList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.UpdateEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager._GetAllEmployeesb__2Employee">
+            <summary>Sets the shim of EmployeeDataManager.&lt;GetAllEmployees&gt;b__2(Employee x)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager._get_AvailableIdsb__0Employee">
+            <summary>Sets the shim of EmployeeDataManager.&lt;get_AvailableIds&gt;b__0(Employee x)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.AddEmployeeToListInt32">
+            <summary>Sets the shim of EmployeeDataManager.AddEmployeeToList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.AvailableIdsGet">
+            <summary>Sets the shim of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.CreateNewEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.GetAllEmployees">
+            <summary>Sets the shim of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.GetEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.IsEmployeeInSystemInt32">
+            <summary>Sets the shim of EmployeeDataManager.IsEmployeeInSystem(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.RemoveAnEmployeeInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.RemoveEmployeeFromListInt32">
+            <summary>Sets the shim of EmployeeDataManager.RemoveEmployeeFromList(Int32 employeeId)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.ShimEmployeeDataManager.AllInstances.UpdateEmployeeEmployee">
+            <summary>Sets the shim of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="T:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager">
+            <summary>Stub type of AppliedUnitTesting.DataService.Proposed.EmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.#ctor(AppliedUnitTesting.DataAccess.Proposed.IEmployeeDataAccessor)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.AvailableIdsGet">
+            <summary>Sets the stub of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.CreateNewEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.CreateNewEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataManager.CreateNewEmployee(Employee employeeToAdd)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.GetAllEmployees">
+            <summary>Sets the stub of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.GetAllEmployees01">
+            <summary>Sets the stub of EmployeeDataManager.GetAllEmployees()</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.GetEmployee(System.Int32)">
+            <summary>Sets the stub of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.GetEmployeeInt32">
+            <summary>Sets the stub of EmployeeDataManager.GetEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.InitializeStub">
+            <summary>Initializes a new instance of type StubEmployeeDataManager</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.RemoveAnEmployee(System.Int32)">
+            <summary>Sets the stub of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.RemoveAnEmployeeInt32">
+            <summary>Sets the stub of EmployeeDataManager.RemoveAnEmployee(Int32 employeeId)</summary>
+        </member>
+        <member name="M:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.UpdateEmployee(AppliedUnitTesting.Data.Employee)">
+            <summary>Sets the stub of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="F:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.UpdateEmployeeEmployee">
+            <summary>Sets the stub of EmployeeDataManager.UpdateEmployee(Employee employee)</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.AvailableIds">
+            <summary>Sets the stub of EmployeeDataManager.get_AvailableIds()</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AppliedUnitTesting.DataService.Proposed.Fakes.StubEmployeeDataManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
