@@ -1,4 +1,0 @@
-C:\Projects\UnitTestingDemo\Tests\Fakes\EmployeeManagement.Tests.MSFakes\Fakes\Employee.DataAccess.fakes : warning : Cannot generate stub for EmployeeManagement.DataAccess.EmployeeRepository: type has no family visible contructors.
-C:\Projects\UnitTestingDemo\Tests\Fakes\EmployeeManagement.Tests.MSFakes\Fakes\Employee.DataAccess.fakes : warning : Cannot generate shim for EmployeeManagement.DataAccess.IDataAccessor: type is an interface.
-C:\Projects\UnitTestingDemo\Tests\Fakes\EmployeeManagement.Tests.MSFakes\Fakes\Employee.DataAccess.fakes : warning : Cannot generate shim for EmployeeManagement.DataAccess.EmployeeDataAccessor+<>c__DisplayClass1: type is not supported because of internal limitations.
-C:\Projects\UnitTestingDemo\Tests\Fakes\EmployeeManagement.Tests.MSFakes\Fakes\Employee.DataAccess.fakes : warning : Cannot generate shim for EmployeeManagement.DataAccess.IRepository: type is an interface.
